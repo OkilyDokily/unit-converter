@@ -10,7 +10,22 @@ var gallonsToPints = function(gallons){
   return gallons * 8;
 }
 
-pintsToCups = function(pints){
+var pintsToCups = function(pints){
   return pints * 2;
 }
 
+var gallonsToLiters = function(gallons){
+  return gallons * 3.78541;
+}
+
+var tableSpoonsToTeaspoons = function (tablespoons){
+  return tablespoons * 3;
+}
+
+var cupsToTableSpoons = function(cups) {
+  return cups * 16;
+}
+
+var milliliterToTeaspoons = function(milliliters) {
+  return milliliters * 0.202884;
+}
