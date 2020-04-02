@@ -53,39 +53,4 @@ $(document).ready(function(){
   });
 
 });
-  // $("#quartstocups").submit(function(e){
-  //   e.preventDefault();
-  //   var result = quartsToCups($("#quartstocupsinput").val());
-  //   $("#quartstocupsresult").text(result);
-  // });
-
-  // $("#gallonstoquarts").submit(function(e){
-  //   e.preventDefault();
-  //   var result = gallonsToQuarts($("#gallonstoquartsinput").val());
-  //   $("#gallonstoquartsresult").text(result);
-  // });
-
-  // $("#gallonstopints").submit(function(e){
-  //   e.preventDefault();
-  //   var result = gallonsToPints($("#gallonstopintsinput").val());
-  //   $("#gallonstopintsresult").text(result);
-  // });
-
-  // $("#pintstocups").submit(function(e){
-  //   e.preventDefault();
-  //   var result = pintsToCups($("#pintstocupinput").val());
-  //   $("#pintstocupsresult").text(result);
-  // });
-
-  // $("#gallonstoliters").submit(function(e){
-  //   e.preventDefault();
-  //   var result = gallonstoliters($("#gallonstolitersinput").val());
-  //   $("#quartstocupsresult").text(result);
-  // });
-
-  // $("#tablespoonstoteaspoons").submit(function(e){
-  //   e.preventDefault();
-  //   var result = tableSpoonsToTeaspoons($("#tablespoonstoteaspoonsinput").val());
-  //   $("#tablespoonstoteaspoonsresult").text(result);
-  // });
 
