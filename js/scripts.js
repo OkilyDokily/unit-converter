@@ -36,20 +36,17 @@ $(document).ready(function(){
   var myarray = ["quartstocups","gallonstoquarts", "gallonstopints","pintstocups","gallonstoliters","tablespoonstoteaspoons","cupstotablespoons","milliliterstoteaspoons"];
   
   
-  function generate_handler( item ) {
-    return function(e) { 
+  
+
+  myarray.forEach(function(item){
+    console.log("#"+item);
+    $("#"+item).submit(function(e) { 
      
       e.preventDefault();
       var result = window[item]($("#"+item+"input").val());
       
       $("#"+item+"result").text(result);
-    };
-  }
-
-
-  myarray.forEach(function(item){
-    console.log("#"+item)
-    $("#"+item).submit(generate_handler(item));
+    });
   });
 
 });
